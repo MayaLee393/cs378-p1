@@ -15,46 +15,74 @@
   <!-- Implement below this point -->
   <body>
     <div class="row" id="label">
-        picture
+        <img src="logo.png" alt="Butterfly Bakery">
     </div>
     <div class="row" id="title">
-      title
+      <div id="phrase1">
+        Flowery, Fresh Goods on the Go!
+      </div>
+      <div id="phrase2">
+        Let's get this bread  
+      </div>
     </div>
 
-    <div class="row" id="menu">
-      <div class="row">
-        <div class="col-4"> item </div>
-        <div class="col-8"> 
-          <div class="col-4 item-name"> item name </div>
-          <div class="col-4 item-desc"> item description </div>
+    <div class="container d-flex flex-column" id="menu">
+
+      <div class="row h-100 w-100 menu-item">
+        <div class="col-4 img-fluid h-100" >
+            <img src= "sunfower-bread.jpg" alt="Sunflower Sourdough" >
+        </div>
+        <div class="col-8 h-100"> 
+          <div class="col-4 item-name"> Sunflower Sourdough </div>
+          <div class="col-4 item-desc"> pumpkin flavored sourdough bread with embedded sunflower seeds </div>
           <div class="row col-4 item-add-price"> 
-            <div class="col-8 price"> price </div>
-            <div class="col-4"> add </div>
+            <div class="col-8 price"> $3.99 </div>
+            <div class="col-4"> <button>Add</button> </div>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-4"> item </div>
-        <div class="col-8"> 
-          <div class="col-4 item-name"> item name </div>
-          <div class="col-4 item-desc"> item description </div>
+
+      <div class="row h-100 w-100 flex-grow-1 menu-item">
+        <div class="col-4 img-fluid h-100"> 
+          <img src="butterfly-bread.jpg" alt="Butterfly Bread" > 
+        </div>
+        <div class="col-8 h-100"> 
+          <div class="col-4 item-name"> Butterfly Bread </div>
+          <div class="col-4 item-desc"> Ube flavored sweet bread with a custard cream filling inside </div>
           <div class="row col-4 item-add-price"> 
-            <div class="col-8 price"> price </div>
-            <div class="col-4"> add </div>
+            <div class="col-8 price"> $2.45 </div>
+            <div class="col-4"> <button>Add</button> </div>
           </div>  
         </div>
-    </div>
-    <div class="row">
-      <div class="col-4"> item </div>
-      <div class="col-8"> 
-        <div class="col-4 item-name"> item name </div>
-          <div class="col-4 item-desc"> item description </div>
-          <div class="row col-4 item-add-price"> 
-            <div class="col-8 price"> price </div>
-            <div class="col-4"> add </div>
-          </div>
       </div>
-  </div>
+
+      <div class="row h-100 w-100 flex-grow-1 menu-item">
+        <div class="col-4 img-fluid h-100"> 
+          <img src="butterfly-cookie.jpg" alt="Butterfly butter cookies"> 
+        </div>
+        <div class="col-8 h-100"> 
+          <div class="col-4 item-name"> Butterfly butter cookies </div>
+            <div class="col-4 item-desc"> Flaky butterfly-shaped butter cookies with sugar sprinkled on top </div>
+            <div class="row col-4 item-add-price"> 
+              <div class="col-8 price"> $2.45 </div>
+              <div class="col-4"> <button>Add</button> </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="row h-100 w-100 flex-grow-1 menu-item">
+        <div class="col-4 img-fluid h-100">
+          <img src="cinnamon-cookie.jpg" alt="Cinnamon Cookies"> </div>
+        <div class="col-8 h-100"> 
+          <div class="col-4 item-name"> Cinnamon Cookies </div>
+            <div class="col-4 item-desc"> Flower-shaped cinnamon roll with a mini-oreo center </div>
+            <div class="row col-4 item-add-price"> 
+              <div class="col-8 price"> $3.00 </div>
+              <div class="col-4"> <button>Add</button> </div>
+            </div>
+        </div>
+      </div>
+
     </div>
   </body>
 </html>
