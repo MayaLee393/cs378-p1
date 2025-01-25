@@ -75,6 +75,7 @@ button{
     border: none;
     box-shadow: 0px 2px 2px lightgray;
     background-color: #81a969;
+    color: gray;
 }
 
 .row{
